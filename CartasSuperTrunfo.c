@@ -10,14 +10,19 @@ int main() {
   // Carta 1
   int populacao1, pontos_turisticos1;
   float area1, pib1, densidade1, capita1;
-  char estado1[20], codigo1[20], cidade1[20];
+  char estado1[2], codigo1[4], cidade1[20];
 
   // Carta 2
   int populacao2, pontos_turisticos2;
   float area2, pib2, densidade2, capita2;
-  char estado2[20], codigo2[20], cidade2[20];
+  char estado2[2], codigo2[4], cidade2[20];
 
   // Área para entrada de dados
+
+  // Saudação ao jogador
+  printf("*** Bem-Vindo ao Jogo Super Trunfo! ***\n");
+
+  printf("\n");
 
   // Cadastro da primeira carta
   printf("Insira os dados da primeira carta! \n");
