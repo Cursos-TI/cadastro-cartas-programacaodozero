@@ -157,9 +157,18 @@ int main() {
   printf("\n");
 
   //Comparação das cartas
-  printf("*** Comparação das Cartas ***\n");
-  
+  printf("*** Comparação das Cartas (Atributo: População) ***\n");
 
+  printf("\n");
+  
+  printf("Carta 1: %s - %lu \n", cidade1, populacao1);
+  printf("Carta 2: %s - %lu \n", cidade2, populacao2);
+  
+  if(populacao1 > populacao2){
+    printf("Carta 1 venceu!\n");
+  } else {
+    printf("Carta 2 venceu!\n");
+  }
 
 return 0;
 } 
