@@ -157,17 +157,30 @@ int main() {
   printf("\n");
 
   //Comparação das cartas
-  printf("*** Comparação das Cartas (Atributo: População) ***\n");
+  printf("*** Comparação das Cartas ***\n");
 
   printf("\n");
+  
+  printf("*** Menu de Atributos ***\n");
+  printf("1. População\n");
+  printf("2. Área\n");
+  printf("3. PIB\n");
+  printf("4. Número de Pontos Turísticos\n");
+  printf("5. Densidade Demográfica\n");
+
+  printf("\n");
+
+  
   
   printf("Carta 1: %s - %lu \n", cidade1, populacao1);
   printf("Carta 2: %s - %lu \n", cidade2, populacao2);
   
   if(populacao1 > populacao2){
     printf("Carta 1 venceu!\n");
-  } else {
+  } else if(populacao1 < populacao2){
     printf("Carta 2 venceu!\n");
+  } else {
+    printf("Houve um empate!\n");
   }
 
 return 0;
